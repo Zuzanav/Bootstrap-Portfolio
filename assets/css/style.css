@@ -1,17 +1,3 @@
-/* NOTE TO TA WHO WILL REVIEW THIS ASSIGNMENT: 
-There are a few things in this assignment I would still improve. 
-This includes: 
-    - I have hard coded some of the sizes of the divs and secstions.
-    As a result they are not responsive to browser window and device sizes. 
-    - the navigation bar links move as one scrolls with the page - I meant to fix this
-    - the placement of the LOGO and NAV BAR are fixed and the web page
-    only resembles the image we're to copy at a certain window size. 
-    It's not responsive. 
-    - I have 3 style sheets. 1 for each web page. I wasn't sure if I was 
-    supposed to create 1 for everything or 1 for each. 
-*/
-
-
 /* THE ENTIRE SITE */
 body {
     margin: 0;
@@ -22,37 +8,31 @@ body {
 }
 
 /* NAVIGATION BAR */
-.navbar {
+nav {
     background-color: #ffffff;
     border-bottom-style: solid;
     border-bottom-color: #cccccc;
     border-bottom-width: 2px;
-    width: 100%;
 }
 
+
     /* LOGO */
-    header {
+    #logo {
         clear: both;
+        position: fixed;
+        left: 200px;
         background-color: #4aaaa5;
         color: #ffffff;
         font-size: 30px;
         font-weight: bold;
         font-family: Georgia, 'Times New Roman', Times, serif;
-        padding: 25px;
-        margin: 0px;
-        width: 220px;
-        margin-left: 189px;
-        /* float: left; */
 }
 
     /* NAV LINKS */
     ul {
         position: fixed;
-        top: 5px;
-        right: 10px;
+        right: 200px;
         list-style-type: none;
-        margin-right: 189px;
-        /* float: right; */
     }
 
     li {
@@ -70,22 +50,17 @@ body {
     } 
 
 /* ---- ALL CONTENT --- ABOUT ME, IMAGE, BIO PARAGRAPH */
-    #content {
+    .wrapper {
+        max-width: 898px;
         clear: both;
         margin: auto;
         margin-top: 40px;
         margin-bottom: 100px;
         padding: 30px;
         border-style: solid;
-        max-width: 898px;
-        height: 440px;
         border-width: 1px;
         border-color: #dddddd;
         background-color: white;
-        /* padding-top: 20px;
-        padding-bottom: 20px;
-        padding-left: 30px;
-        padding-right: 30px; */
     }
  
 
@@ -95,6 +70,8 @@ body {
         h1 {
             color: #4aaaa5;
             font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: bold;
+            font-size: 32px;
         }
     
         hr {
@@ -121,7 +98,7 @@ body {
         
 /* FOOTER */
 
-footer {
+.row2 {
     clear: both;
     border-top-style: solid;
     border-top-color: #4aaaa5;
@@ -133,7 +110,16 @@ footer {
     text-align: center;
     padding-top: 35px;
     padding-bottom: 5px;
-    position: absolute;
+    position: fixed;
     bottom: 0px;
+    left: 0px;
     width: 100%;
 }
+
+@media screen and (max-width: 550px) {
+   
+    /* The image will be no bigger than  */
+    img {
+      max-width: 90px;
+      max-height: 90px;
+    }

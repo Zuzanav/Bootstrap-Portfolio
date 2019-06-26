@@ -3,8 +3,8 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <link rel='stylesheet' type='text/css' href='assets/css/style.css'>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel='stylesheet' type='text/css' href='assets/css/style.css'>
     <title>Bootstrap-Portfolio</title>
 </head>
 
@@ -12,71 +12,74 @@
         
         <!-- NAVIGATION BAR -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
+                <a class="navbar-brand" id="logo" href="#">Zuzana Volny</a>
                 <div class="collapse navbar-collapse" id="navbarNav">
                   <ul class="navbar-nav">
                     <li class="nav-item active">
-                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                      <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Features</a>
+                      <a class="nav-link" href="#">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                      <a class="nav-link" href="#">Contact</a>
                     </li>
                   </ul>
                 </div>
               </nav>
 
-            <!--LOGO-->
-            <header>Zuzana Volny</header>
 
-            <!--NAV LINKS-->
-            <ul>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="index.html">About</a></li>
-            </ul>
-        </section>
+        <!--CONTAINER-->
+        <div class="container">
+            <div class="wrapper">
 
-        <!--ABOUT ME CONTENT-->
-        <div id="content">
-                <h1>About Me</h1>
-                <hr>
-    
-                <img src="assets/images/Zuz_Profile.png" alt="image" style="width:200px;height:200px;"/>
-                <p>
-                        I'm Zuzana. I enjoy warm weather and that probably sums up 
-                        the reason why I moved from San Francisco early 2018 to be 
-                        in San Diego. Best decision of my life. 
-                        <br> <br>
-                        ​In San Francisco I got my BFA in Film/Directing and pursued 
-                        a Creative Director career. I've directed numerous videos 
-                        for clients getting their product started on Kickstarter or 
-                        Indiegogo. 
-                        <br>
-                        Having moved to San Diego I used my directorial skills to 
-                        become a Project Manager in Digital Marketing - which has 
-                        opened up several more doors into me contributing to Social 
-                        Media, Website Editing, Product Photography and more.
-                        <br>
-                        I am a well rounded, creative, organized individual 
-                        with a great work ethic willing to take on new challenges 
-                        and excel at former ones. 
-                </p>
-            </div>
+                <!--ABOUT ME CONTENT-->
+                <!-- Row 1: "About Me" and Divder Line -->
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h1>About Me</h1>
+                            <hr>
+                        </div>
+                    </div>
 
+                <!--Row 2: Profile Image and Bio -->
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <img src="assets/images/Zuz_Profile.png" alt="image" style="width:200px;height:200px;"/>
+                            <p>
+                                I'm Zuzana. I enjoy warm weather and that probably sums up 
+                                the reason why I moved from San Francisco early 2018 to be 
+                                in San Diego. Best decision of my life. 
+                                <br> <br>
+                                ​In San Francisco I got my BFA in Film/Directing and pursued 
+                                a Creative Director career. I've directed numerous videos 
+                                for clients getting their product started on Kickstarter or 
+                                Indiegogo. 
+                                <br>
+                                Having moved to San Diego I used my directorial skills to 
+                                become a Project Manager in Digital Marketing - which has 
+                                opened up several more doors into me contributing to Social 
+                                Media, Website Editing, Product Photography and more.
+                                <br>
+                                I am a well rounded, creative, organized individual 
+                                with a great work ethic willing to take on new challenges 
+                                and excel at former ones. 
+                            </p>
+                    
+                        </div> <!--close of column-->
+                    </div> <!--Close of row -->
+            </div> <!--close of wrapper-->
 
-    <footer>
-        <div id="footerdiv"> </div>
-        <div id="Copyright"> Copyright &#169; </div>
-    </footer>
+            <!--Row 3: Footer-->
+            <div class="row2">
+                <div class="col-sm-12">
+                        <div id="footerdiv"> </div>
+                        <div id="Copyright"> Copyright &#169; </div>
+                </div> <!--close of column-->
+            </div> <!--close of row-->
+
+        </div> <!--close of container-->
+
 
 </body>
 </html>
