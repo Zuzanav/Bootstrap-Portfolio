@@ -8,37 +8,31 @@ body {
 }
 
 /* NAVIGATION BAR */
-.navbar {
+nav {
     background-color: #ffffff;
     border-bottom-style: solid;
     border-bottom-color: #cccccc;
     border-bottom-width: 2px;
-    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-    /* LOGO */
-    header {
-        clear: both;
-        background-color: #4aaaa5;
-        color: #ffffff;
-        font-size: 30px;
-        font-weight: bold;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        padding: 25px;
-        margin: 0px;
-        width: 220px;
-        margin-left: 189px;
-        /* float: left; */
+
+/* LOGO */
+#logo {
+    clear: both;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
     /* NAV LINKS */
     ul {
         position: fixed;
-        top: 5px;
-        right: 10px;
+        right: 200px;
         list-style-type: none;
-        margin-right: 189px;
-        /* float: right; */
     }
 
     li {
@@ -56,20 +50,18 @@ body {
     } 
 
 /* ---- ALL CONTENT -- TEXT, IMAGES */
-    .portfolio {
-        clear: both;
-        position: relative;
-        height: 750px;
-        max-width: 898px;
-        margin: auto;
-        margin-top: 40px;
-        margin-bottom: 60px;
-        padding: 30px;
-        border-style: solid;
-        border-width: 1px;
-        border-color: #dddddd;
-        background-color: white;
-    }
+.wrapper {
+    max-width: 898px;
+    clear: both;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    padding: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+    background-color: white;
+}
 
         .column {
             float: left;
@@ -93,6 +85,13 @@ body {
                 padding-bottom: 15px;
                 margin-top: 130px;
             }
+
+        .col-sm-3 {
+            margin-left: 30px;
+            margin-right: 30px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
  
 
         /* "PORTFOLIO" TEXT */
@@ -100,6 +99,7 @@ body {
             color: #4aaaa5;
             font-size: 32px;
             font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: bold;
         }
     
         hr {
@@ -113,7 +113,8 @@ body {
 
 /* FOOTER */
 
-footer {
+.row2 {
+    clear: both;
     border-top-style: solid;
     border-top-color: #4aaaa5;
     border-top-width: 8px;
@@ -124,6 +125,8 @@ footer {
     text-align: center;
     padding-top: 35px;
     padding-bottom: 5px;
-    position: absolute;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
     width: 100%;
 }

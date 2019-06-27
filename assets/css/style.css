@@ -13,19 +13,19 @@ nav {
     border-bottom-style: solid;
     border-bottom-color: #cccccc;
     border-bottom-width: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 
-    /* LOGO */
-    #logo {
-        clear: both;
-        position: fixed;
-        left: 200px;
-        background-color: #4aaaa5;
-        color: #ffffff;
-        font-size: 30px;
-        font-weight: bold;
-        font-family: Georgia, 'Times New Roman', Times, serif;
+/* LOGO */
+#logo {
+    clear: both;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
     /* NAV LINKS */
@@ -88,6 +88,10 @@ nav {
             margin-right: 20px;
         }
 
+        .img-fluid {
+            max-width: 100%; and height: auto;
+        }
+
         /* PARAGPRAH CONTENT */
         p {
             /* clear: both; */
@@ -123,3 +127,4 @@ nav {
       max-width: 90px;
       max-height: 90px;
     }
+}
