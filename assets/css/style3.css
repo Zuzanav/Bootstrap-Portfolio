@@ -29,17 +29,11 @@ nav {
 
     /* NAV LINKS */
     ul {
-        position: fixed;
-        right: 200px;
+        position: static;
         list-style-type: none;
     }
 
-    li {
-        float: right;
-    }
-
     li a {
-        clear: both;
         display: block;
         font-family: Arial, Helvetica, sans-serif;
         color: #777777;
@@ -49,19 +43,18 @@ nav {
     } 
 
 /* ---- ALL CONTENT -- CONTACT + CONTACT FORM */
-    .container {
-        position: relative;
-        height: 550px;
-        max-width: 898px;
-        margin: auto;
-        margin-top: 40px;
-        margin-bottom: 70px;
-        padding: 30px;
-        border-style: solid;
-        border-width: 1px;
-        border-color: #dddddd;
-        background-color: white;
-    }
+.wrapper {
+    max-width: 898px;
+    clear: both;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    padding: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+    background-color: white;
+}
 
  
         /* "CONTACT" TEXT */

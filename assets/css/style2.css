@@ -30,8 +30,7 @@ nav {
 
     /* NAV LINKS */
     ul {
-        position: fixed;
-        right: 200px;
+        position: static;
         list-style-type: none;
     }
 
