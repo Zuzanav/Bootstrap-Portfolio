@@ -40,13 +40,15 @@ h1 {
 }
 
 .fa-github,
-.fa-linkedin-in {
+.fa-linkedin-in,
+.fa-file {
     font-size: 30px;
     color: black;
 }
 
 .fa-github:hover,
-.fa-linkedin-in:hover {
+.fa-linkedin-in:hover,
+.fa-file:hover {
     color: #FF5D5E;
 }
 
