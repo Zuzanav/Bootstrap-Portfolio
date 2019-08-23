@@ -135,14 +135,18 @@ h1 {
     margin-bottom: 50px;
 }
 
+h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
 #psychic-link,
 #trivia-link,
 #cart-link,
 #crystal-link {
     color: black;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 20px;
-    margin-bottom: 10px;
+    font-size: 12px;
+    margin-bottom: 12px;
 }
 
 #psychic-link:hover,
