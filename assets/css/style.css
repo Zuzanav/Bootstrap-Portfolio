@@ -113,7 +113,9 @@ h1 {
         }
 
         img {
+            clear: both;
             max-width: 100%;
+            max-height: 215px;
             border-style: solid;
             border-width: 1px;
             border-color: lightslategray;
@@ -121,7 +123,7 @@ h1 {
 
         /* PARAGPRAH CONTENT */
         p {
-            /* clear: both; */
+            clear: both;
             font-family: 'Source Sans Pro', sans-serif;
             color: black;
             line-height: 2.2em;
@@ -144,7 +146,9 @@ h3 {
 #psychic-link,
 #trivia-link,
 #cart-link,
-#crystal-link {
+#crystal-link,
+#liri-link,
+#train-link {
     color: black;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 12px;
@@ -154,7 +158,9 @@ h3 {
 #psychic-link:hover,
 #trivia-link:hover,
 #cart-link:hover,
-#crystal-link:hover {
+#crystal-link:hover,
+#liri-link:hover,
+#train-link:hover {
     color: #FF5D5E;
 }
 
