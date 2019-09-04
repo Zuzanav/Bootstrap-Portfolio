@@ -113,7 +113,7 @@ h1 {
         }
 
         img {
-            clear: both;
+           
             max-width: 100%;
             max-height: 215px;
             border-style: solid;
@@ -123,7 +123,7 @@ h1 {
 
         /* PARAGPRAH CONTENT */
         p {
-            clear: both;
+            
             font-family: 'Source Sans Pro', sans-serif;
             color: black;
             line-height: 2.2em;
