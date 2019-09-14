@@ -136,7 +136,7 @@ h1 {
 }
 
 #portfolio-wrapper {
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 h3 {
@@ -148,7 +148,8 @@ h3 {
 #cart-link,
 #crystal-link,
 #liri-link,
-#train-link {
+#train-link,
+#bamazon-link {
     color: black;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 12px;
@@ -160,13 +161,11 @@ h3 {
 #cart-link:hover,
 #crystal-link:hover,
 #liri-link:hover,
-#train-link:hover {
+#train-link:hover,
+#bamazon-link:hover {
     color: #FF5D5E;
 }
 
-#project-row2 {
-    margin-bottom: 10%;
-}
 
 
 /* FOOTER */
