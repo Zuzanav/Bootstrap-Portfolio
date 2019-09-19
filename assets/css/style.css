@@ -149,7 +149,8 @@ h3 {
 #crystal-link,
 #liri-link,
 #train-link,
-#bamazon-link {
+#bamazon-link,
+#gym {
     color: black;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 12px;
@@ -162,7 +163,8 @@ h3 {
 #crystal-link:hover,
 #liri-link:hover,
 #train-link:hover,
-#bamazon-link:hover {
+#bamazon-link:hover,
+#gym:hover {
     color: #FF5D5E;
 }
 
